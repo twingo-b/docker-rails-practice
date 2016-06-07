@@ -27,7 +27,7 @@ docker-compose version 1.7.1, build 0a9ab35
 % docker-compose build
 % docker-compose up -d
 % docker-compose run rails ./bin/rake db:create
-% docker-compose run rails ./bin/rake db:create RAILS_ENV=test
+% docker-compose run rails ./bin/rake db:migrate
 
 # see: http://localhost:3000
 
